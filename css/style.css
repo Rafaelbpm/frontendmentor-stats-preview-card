@@ -3,13 +3,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    border: 1px solid rgba(26, 171, 190, 0.24);
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid rgba(26, 171, 190, 0.24);
+}
 
-:root{
+:root {
   /* Primary */
 
   --very-dark-blue: hsl(233, 47%, 7%);
@@ -28,14 +28,30 @@ body {
   font-family: "Lexend Deca", sans-serif;
   font-size: 15px;
   background-color: var(--very-dark-blue);
-  color: var(--white)
+  color: var(--white);
 }
 
-image{
-    min-width: 100%;
+image {
+  min-width: 100%;
+}
+
+main {
+  min-height: 100vh;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /*-------------------CARD-------------------*/
+
+.card {
+  max-width: 375px;
+  display: flex;
+}
+
+/*-------------------FOOTER-------------------*/
 
 .attribution {
   font-size: 11px;
