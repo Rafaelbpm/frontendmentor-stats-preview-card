@@ -1,6 +1,15 @@
+/*-------------------PRIMARY-------------------*/
+
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
 
-*root {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid rgba(26, 171, 190, 0.24);
+  }
+
+:root{
   /* Primary */
 
   --very-dark-blue: hsl(233, 47%, 7%);
@@ -18,6 +27,12 @@ body {
   font-family: "Inter", sans-serif;
   font-family: "Lexend Deca", sans-serif;
   font-size: 15px;
+  background-color: var(--very-dark-blue);
+  color: var(--white)
+}
+
+image{
+    min-width: 100%;
 }
 
 .attribution {
