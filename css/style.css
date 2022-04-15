@@ -60,23 +60,6 @@ p {
   font-weight: 400;
 }
 
-/*-------------------UTILITY CLASSES-------------------*/
-
-.stats-info {
-  font-family: "Lexend Deca", sans-serif;
-  text-transform: uppercase;
-  font-size: 11px;
-  color: var(--slightly-transparent-white);
-  letter-spacing: 0.1rem;
-}
-
-.card-p {
-  margin-top: 30px;
-}
-
-.stats-metrics {
-  margin-top: 30px;
-}
 /*-------------------CARD-------------------*/
 
 .card {
@@ -86,6 +69,7 @@ p {
   background-color: var(--dark-desaturated-blue);
   border-radius: 10px;
   text-align: center;
+  padding-bottom: 30px;
 }
 
 .img-hero {
@@ -97,13 +81,26 @@ p {
   margin-top: 30px;
 }
 
+.highlight {
+  color: var(--soft-violet);
+}
+
 .card-p {
   margin-top: 30px;
 }
 
-.highlight {
-  color: var(--soft-violet);
+.stats-metrics {
+  margin-top: 30px;
 }
+
+.stats-info {
+  font-family: "Lexend Deca", sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+  color: var(--slightly-transparent-white);
+  letter-spacing: 0.1rem;
+}
+
 
 /*-------------------FOOTER-------------------*/
 
