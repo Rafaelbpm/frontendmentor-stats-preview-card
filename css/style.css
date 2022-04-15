@@ -82,6 +82,10 @@ p {
   text-align: center;
 }
 
+.img-hero{
+  border-radius: 10px 10px 0px 0px;
+}
+
 .highlight {
   color: var(--soft-violet);
 }
@@ -91,6 +95,7 @@ p {
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin-top: 15px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
