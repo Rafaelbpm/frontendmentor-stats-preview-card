@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid rgba(26, 171, 190, 0.24);
+  /* border: 1px solid rgba(26, 171, 190, 0.24); */
 }
 
 :root {
@@ -46,7 +46,6 @@ main {
 
 h1 {
   font-family: "Inter", sans-serif;
-  font-weight: 700;
 }
 
 h6 {
@@ -71,6 +70,13 @@ p {
   letter-spacing: 0.1rem;
 }
 
+.card-p {
+  margin-top: 30px;
+}
+
+.stats-metrics {
+  margin-top: 30px;
+}
 /*-------------------CARD-------------------*/
 
 .card {
@@ -82,8 +88,17 @@ p {
   text-align: center;
 }
 
-.img-hero{
+.img-hero {
   border-radius: 10px 10px 0px 0px;
+}
+
+.card-title {
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.card-p {
+  margin-top: 30px;
 }
 
 .highlight {
@@ -98,5 +113,5 @@ p {
   margin-top: 15px;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--soft-violet);
 }
