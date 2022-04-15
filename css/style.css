@@ -44,11 +44,46 @@ main {
   align-items: center;
 }
 
+h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+
+h6 {
+  font-family: "Inter", sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+/*-------------------UTILITY CLASSES-------------------*/
+
+.stats-info {
+  font-family: "Lexend Deca", sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+  color: var(--slightly-transparent-white);
+  letter-spacing: 0.1rem;
+}
+
 /*-------------------CARD-------------------*/
 
 .card {
   max-width: 375px;
   display: flex;
+  flex-direction: column;
+  background-color: var(--dark-desaturated-blue);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.highlight {
+  color: var(--soft-violet);
 }
 
 /*-------------------FOOTER-------------------*/
