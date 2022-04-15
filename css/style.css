@@ -63,7 +63,7 @@ p {
 /*-------------------CARD-------------------*/
 
 .card {
-  max-width: 375px;
+  max-width: 300px;
   display: flex;
   flex-direction: column;
   background-color: var(--dark-desaturated-blue);
@@ -87,6 +87,7 @@ p {
 
 .card-p {
   margin-top: 30px;
+  color: var(--slightly-transparent-white);
 }
 
 .stats-metrics {
@@ -100,7 +101,6 @@ p {
   color: var(--slightly-transparent-white);
   letter-spacing: 0.1rem;
 }
-
 
 /*-------------------FOOTER-------------------*/
 
