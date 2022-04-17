@@ -123,7 +123,12 @@ p {
 
 /*----LARGE TABLETS & LAPTOP STYLES----*/
 @media screen and (min-width: 960px) {
-}
+  /* .card{
+    display: flex;
+    flex-direction: row-reverse; */
+
+  }
+
 
 /*----DESKTOP STYLES----*/
 @media screen and (min-width: 1200px) {
