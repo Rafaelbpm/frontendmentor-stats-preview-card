@@ -31,7 +31,7 @@ body {
 }
 
 image {
-  max-width: 100%;
+  min-width: 100%;
 }
 
 main {
@@ -117,15 +117,37 @@ p {
 
 /*----SMALL TABLES STYLES----*/
 @media screen and (min-width: 620px) {
-  
+  .card {
+    /* max-width: 600px; */
+  }
 }
 
 /*----LARGE TABLETS & LAPTOP STYLES----*/
 @media screen and (min-width: 960px) {
-  
 }
 
 /*----DESKTOP STYLES----*/
 @media screen and (min-width: 1200px) {
+  .card img {
+    width: 50%;
+  }
   
+  .card {
+    min-width: 1000px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+
+  .img-hero{
+    background-image: url("/design/desktop-preview.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+  }
+
 }
+
