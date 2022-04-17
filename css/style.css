@@ -113,3 +113,18 @@ p {
 .attribution a {
   color: var(--soft-violet);
 }
+
+/*-------------------MEDIA QUERIES-------------------*/
+
+/*----SMALL TABLES STYLES----*/
+@media screen and (min-width: 620px) {
+  
+}
+
+/*----LARGE TABLETS & LAPTOP STYLES----*/
+@media screen and (min-width: 960px) {
+}
+
+/*----DESKTOP STYLES----*/
+@media screen and (min-width: 1200px) {
+}
