@@ -131,7 +131,7 @@ p {
   .card img {
     width: 50%;
   }
-  
+
   .card {
     min-width: 1000px;
     display: flex;
@@ -141,13 +141,11 @@ p {
     padding-bottom: 30px;
   }
 
-  .img-hero{
+  .img-hero {
     background-image: url("/design/desktop-preview.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 100%;
   }
-
 }
-
