@@ -62,14 +62,27 @@ p {
 
 /*-------------------CARD-------------------*/
 
-.card {
-  max-width: 300px;
+.all-card {
+  max-width: 80%;
   display: flex;
   flex-direction: column;
   background-color: var(--dark-desaturated-blue);
   border-radius: 10px;
   text-align: center;
-  padding-bottom: 30px;
+  }
+
+  .card{
+    padding: 20px;
+  }
+
+.image-header{
+  min-width: 100%;
+  min-height: 100%;
+  aspect-ratio: 1.5/1;
+  background-image: url('/images/image-header-mobile.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px 10px 0px 0px;
 }
 
 .img-hero {
@@ -118,7 +131,7 @@ p {
 /*----SMALL TABLES STYLES----*/
 @media screen and (min-width: 620px) {
   .card {
-    /* max-width: 600px; */
+    min-width: 30%;
   }
 }
 
