@@ -132,13 +132,12 @@ p {
 
 @media screen and (min-width: 500px) {
   .all-card {
-    max-width: 50%;
     background-color: rgb(2, 53, 53);
   }
 }
 
 /*----DESKTOP STYLES----*/
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 640px) {
   .all-card {
     background-color: rgb(3, 37, 87);
     max-width: 80%;
@@ -146,6 +145,22 @@ p {
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
+    }
+
+  .image-header{
+    display: none;
+    background-image: url('/images/image-header-desktop.jpg');
+    min-width: 100%;
+    min-height: 100%;
+    aspect-ratio: 1.5/1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .card-content{
+    max-width: 50%;
+   
   }
 
   .card-p,
@@ -156,6 +171,7 @@ p {
   .stats {
     display: flex;
     flex-direction: row;
-    gap: 6.3rem;
+    gap: 5rem;
+    max-width: 50%;
   }
 }
