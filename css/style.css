@@ -79,7 +79,7 @@ p {
   min-width: 100%;
   min-height: 100%;
   aspect-ratio: 1.5/1;
-  /* background-image: url("/images/image-header-mobile.jpg"); */
+  background-image: url("/images/image-header-mobile.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 10px 10px 0px 0px;
@@ -130,7 +130,7 @@ p {
 
 /*----LARGE TABLETS & LAPTOP STYLES----*/
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 641px) {
   .all-card {
     background-color: rgb(2, 53, 53);
   }
@@ -145,21 +145,19 @@ p {
     flex-direction: row-reverse;
     /* justify-content: center;
     align-items: center; */
-    }
+  }
 
-    .image-header-desktop{
-      background-image: url('/images/image-header-desktop.jpg');
-      min-width: 50%;
-      aspect-ratio: 1.5/1;
-      background-size: cover;
-      background-repeat: no-repeat;
-      border-radius: 0px 10px 10px 0px;
-       
-    }
+  .image-header-desktop {
+    background-image: url("/images/image-header-desktop.jpg");
+    min-width: 50%;
+    aspect-ratio: 1.5/1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0px 10px 10px 0px;
+  }
 
-  .image-header{
-    display: none;
-    background-image: url('/images/image-header-desktop.jpg');
+  .image-header {
+    background-image: url("/images/image-header-desktop.jpg");
     min-width: 100%;
     min-height: 100%;
     aspect-ratio: 1.5/1;
@@ -168,9 +166,8 @@ p {
     border-radius: 10px 10px 0px 0px;
   }
 
-  .card-content{
+  .card-content {
     max-width: 50%;
-   
   }
 
   .card-p,
