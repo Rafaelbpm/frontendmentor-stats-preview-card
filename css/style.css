@@ -69,17 +69,17 @@ p {
   background-color: var(--dark-desaturated-blue);
   border-radius: 10px;
   text-align: center;
-  }
+}
 
-  .card{
-    padding: 20px;
-  }
+.card {
+  padding: 20px;
+}
 
-.image-header{
+.image-header {
   min-width: 100%;
   min-height: 100%;
   aspect-ratio: 1.5/1;
-  background-image: url('/images/image-header-mobile.jpg');
+  /* background-image: url("/images/image-header-mobile.jpg"); */
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 10px 10px 0px 0px;
@@ -128,37 +128,52 @@ p {
 
 /*-------------------MEDIA QUERIES-------------------*/
 
-/*----SMALL TABLES STYLES----*/
-@media screen and (min-width: 620px) {
-  .card {
-    min-width: 30%;
-  }
-}
-
 /*----LARGE TABLETS & LAPTOP STYLES----*/
-@media screen and (min-width: 960px) {
+
+@media screen and (min-width: 500px) {
+  .all-card {
+    max-width: 50%;
+    background-color: rgb(2, 53, 53);
+  }
 }
 
 /*----DESKTOP STYLES----*/
 @media screen and (min-width: 1200px) {
-  .card img {
-    width: 50%;
-  }
-
-  .card {
-    min-width: 1000px;
+  .all-card {
+    background-color: rgb(3, 37, 87);
+    max-width: 80%;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
-    padding-bottom: 30px;
   }
 
-  .img-hero {
+  /* .image-header {
+    width: 50%;
+    height: 50%;
+    aspect-ratio: 1.5/1;
+    background-image: url("/images/image-header-desktop.jpg");
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    border-radius: 0px 10px 10px 0px;
+  } */
+
+  /* .img-hero {
     background-image: url("/design/desktop-preview.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 100%;
+  } */
+
+  .card-p,
+  .card-title {
+    text-align: left;
+  }
+
+  .stats {
+    display: flex;
+    flex-direction: row;
+    gap: 6.3rem;
   }
 }
