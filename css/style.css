@@ -148,24 +148,6 @@ p {
     align-items: center;
   }
 
-  /* .image-header {
-    width: 50%;
-    height: 50%;
-    aspect-ratio: 1.5/1;
-    background-image: url("/images/image-header-desktop.jpg");
-    background-size: 50% 50%;
-    background-repeat: no-repeat;
-    border-radius: 0px 10px 10px 0px;
-  } */
-
-  /* .img-hero {
-    background-image: url("/design/desktop-preview.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 100%;
-  } */
-
   .card-p,
   .card-title {
     text-align: left;
