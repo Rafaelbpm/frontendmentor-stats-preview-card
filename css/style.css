@@ -168,13 +168,13 @@ p {
   }
 
   .card-content {
-    max-width: 100%;
+    min-width: 100%;
   }
 
   .card-title {
     font-weight: 700;
     margin-top: 0px;
-    max-width: 100%;
+    /* max-width: 100%; */
   }
 
   .card-p,
