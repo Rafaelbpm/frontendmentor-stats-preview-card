@@ -132,5 +132,18 @@ p {
 
 /*----LARGE TABLETS & LAPTOP STYLES----*/
 
-@media screen and (min-width: 641px) {
+@media screen and (min-width: 769px){
+
+  .all-card{
+    background-color: rgb(1, 46, 58);
+  }
+
+  .image-header-mobile{
+    display: none;
+  }
+
+  .image-header-desktop{
+    background-image: url(/images/image-header-desktop.jpg);
+  }
+}
  
