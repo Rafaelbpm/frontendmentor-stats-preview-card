@@ -137,7 +137,7 @@ p {
     background-color: var(--dark-desaturated-blue);
     display: flex;
     flex-direction: row-reverse;
-    max-width: 100%;
+    max-width: 980px;
   }
 
   .image-header-mobile {
@@ -180,6 +180,10 @@ p {
     display: flex;
     flex-direction: row;
     gap: 10%;
-      }
+}
+
+.stats-metrics{
+  /* margin-top: 0; */
+}
 
 }
