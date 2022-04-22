@@ -132,25 +132,24 @@ p {
 
 /*----LARGE TABLETS & LAPTOP STYLES----*/
 
-@media screen and (min-width: 769px){
-
-  .all-card{
+@media screen and (min-width: 769px) {
+  .all-card {
     background-color: var(--dark-desaturated-blue);
     display: flex;
-    flex-direction:row-reverse;
+    flex-direction: row-reverse;
     max-width: 100%;
   }
 
-  .card{
+  .card {
     min-width: 600px;
     max-width: 400px;
   }
 
-  .image-header-mobile{
+  .image-header-mobile {
     display: none;
   }
 
-  .image-header-desktop{
+  .image-header-desktop {
     width: 600px;
     background-image: url(/images/image-header-desktop.jpg);
     background-size: cover;
@@ -158,4 +157,3 @@ p {
     border-radius: 0px 10px 10px 0px;
   }
 }
- 
