@@ -140,20 +140,37 @@ p {
     max-width: 100%;
   }
 
-  .card {
-    min-width: 600px;
-    max-width: 400px;
-  }
-
   .image-header-mobile {
     display: none;
   }
 
   .image-header-desktop {
-    width: 600px;
+    width:600px;
     background-image: url(/images/image-header-desktop.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 0px 10px 10px 0px;
   }
+
+  .card {
+    min-width: 600px;
+    max-width: 400px;
+  }
+
+  .card-title {
+    max-width: 60%;
+    text-align: left;
+  }
+  
+  .card-p{
+    max-width: 70%;
+    text-align: left;
+  }
+
+  .stats{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+  }
+
 }
