@@ -135,7 +135,15 @@ p {
 @media screen and (min-width: 769px){
 
   .all-card{
-    background-color: rgb(1, 46, 58);
+    background-color: var(--dark-desaturated-blue);
+    display: flex;
+    flex-direction:row-reverse;
+    max-width: 100%;
+  }
+
+  .card{
+    min-width: 600px;
+    max-width: 400px;
   }
 
   .image-header-mobile{
@@ -143,7 +151,11 @@ p {
   }
 
   .image-header-desktop{
+    width: 600px;
     background-image: url(/images/image-header-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0px 10px 10px 0px;
   }
 }
  
