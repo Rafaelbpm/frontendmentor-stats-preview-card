@@ -153,24 +153,34 @@ p {
   }
 
   .card {
-    min-width: 600px;
-    max-width: 400px;
+    /* min-width: 600px;
+    max-width: 400px; */
+    padding: 0px 0px 0px 0px;
+  }
+
+  .card-content{
+    max-width: 600px;
+    padding: 40px 0px 40px 40px;
+    padd
   }
 
   .card-title {
-    max-width: 60%;
+    max-width: 70%;
     text-align: left;
+    
   }
   
   .card-p{
     max-width: 70%;
     text-align: left;
+    
   }
 
   .stats{
     display: flex;
     flex-direction: row;
     gap: 10%;
+    
   }
 
 }
